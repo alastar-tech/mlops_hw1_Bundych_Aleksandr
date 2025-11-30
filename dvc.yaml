@@ -1,0 +1,21 @@
+stages:
+  prepare:
+    cmd: python src/prepare.py
+    deps:
+    - data/raw/wine.csv
+    - src/prepare.py
+    params:
+    - base.random_state
+    - prepare.split_ratio
+    outs:
+    - data/processed
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/processed
+    - src/train.py
+    params:
+    - base.random_state
+    - train.max_iter
+    outs:
+    - model.pkl
