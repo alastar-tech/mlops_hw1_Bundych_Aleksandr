@@ -10,7 +10,7 @@
 ### Как запустить:
 через командную строку
 1.  **Склонируйте репозиторий:**
-    git clone https://github.com/ваш_логин/mlops_hw1_Бундыч_Александр.git
+    git clone https://github.com/alastar-tech/mlops_hw1_Bundych_Aleksandr.git
     cd mlops_hw1_Бундыч_Александр
 
 2.  **Установите зависимости:**
