@@ -11,7 +11,7 @@
 через командную строку
 1.  **Склонируйте репозиторий:**
     git clone https://github.com/alastar-tech/mlops_hw1_Bundych_Aleksandr.git
-    cd mlops_hw1_Бундыч_Александр
+    cd mlops_hw1_Bundych_Aleksandr
 
 2.  **Установите зависимости:**
     pip install -r requirements.txt
